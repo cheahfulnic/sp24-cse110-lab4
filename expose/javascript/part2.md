@@ -25,8 +25,8 @@
 12. D) student['Favorite Teacher'].name
 12. E) student.courseLoad[0]
 
-13. '32' since the integer 2 maps to its exact string representation.
-13. 1 since the string '3' maps to its integer representation.
+13. '32' since the number 2 maps to its exact string representation.
+13. 1 since the string '3' maps to its number representation.
 13. 3 since null is treated as 0.
 13. '3null' since null maps to its exact string representation.
 13. 4 since true is treated as 1.
@@ -34,9 +34,9 @@
 13. '3undefined' since undefined maps to its exact string representation.
 13. NaN since undefined cannot be represented as a number.
 
-14. true since the string '2' maps to its integer representation.
+14. true since the string '2' maps to its number representation.
 14. false since two strings are compared lexicographically.
-14. true since the string '2' maps to its integer representation.
+14. true since the string '2' maps to its number representation.
 14. false since they are of different variable types.
 14. false since true is treated as 1.
 14. false since they are of different variable types, boolean and Boolean object.

@@ -1,0 +1,2 @@
+1. document.getElementById("num1").value and document.getElementById("num2").value returns num1 and num2 as strings instead of numbers.
+2. Convert num1 and num2 into numbers by using the Number() function.
