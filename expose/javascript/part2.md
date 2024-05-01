@@ -43,6 +43,10 @@
 
 15. A strict equality operator === checks the equality without type conversion whereas a regular equality operator == converts operands to numbers before checking equality.
 
+16. See part2-question16.js
+
 17. The line returns newArr, [2, 4, 6]. We get this by first defining modifyArray as a function that takes an array and callback function as parameters. Then it initializes newArr as an empty set. It then iterates through each element of the array and pushes the return value of the callback function, doSomething, to newArr. Thus, doSomething multiplies each element of the array by two and returns the values.
+
+18. See part2-question18.js
 
 19. 1, 4, 3, then 2.
