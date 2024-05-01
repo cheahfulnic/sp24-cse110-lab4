@@ -20,26 +20,26 @@
 11. The line returns the discounted array, [50, 100, 150]. The elements are half the value of those in the original prices array since the discount is 0.5/50%. const allows discounted to be accessible within the same block, which is the block that the return statement is in. The elements in the discounted array are still mutable as the elements themselves aren't const. Only the reference discounted cannot be reassigned to a different array.
     
 12. A) student.name
-12. B) student['Grad Year']
-12. C) student.greeting()
-12. D) student['Favorite Teacher'].name
-12. E) student.courseLoad[0]
+    B) student['Grad Year']
+    C) student.greeting()
+    D) student['Favorite Teacher'].name
+    E) student.courseLoad[0]
 
 13. '32' since the number 2 maps to its exact string representation.
-13. 1 since the string '3' maps to its number representation.
-13. 3 since null is treated as 0.
-13. '3null' since null maps to its exact string representation.
-13. 4 since true is treated as 1.
-13. 0 since both false and null are treated as 0.
-13. '3undefined' since undefined maps to its exact string representation.
-13. NaN since undefined cannot be represented as a number.
+    1 since the string '3' maps to its number representation.
+    3 since null is treated as 0.
+    '3null' since null maps to its exact string representation.
+    4 since true is treated as 1.
+    0 since both false and null are treated as 0.
+    '3undefined' since undefined maps to its exact string representation.
+    NaN since undefined cannot be represented as a number.
 
 14. true since the string '2' maps to its number representation.
-14. false since two strings are compared lexicographically.
-14. true since the string '2' maps to its number representation.
-14. false since they are of different variable types.
-14. false since true is treated as 1.
-14. false since they are of different variable types, boolean and Boolean object.
+    false since two strings are compared lexicographically.
+    true since the string '2' maps to its number representation.
+    false since they are of different variable types.
+    false since true is treated as 1.
+    false since they are of different variable types, boolean and Boolean object.
 
 15. A strict equality operator === checks the equality without type conversion whereas a regular equality operator == converts operands to numbers before checking equality.
 
